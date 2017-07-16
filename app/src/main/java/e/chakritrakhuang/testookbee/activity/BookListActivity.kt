@@ -60,8 +60,6 @@ class BookListActivity : AppCompatActivity() {
         }
     }
 
-    // Executes an API call to the OpenLibrary search endpoint, parses the results
-    // Converts them into an array of book objects and adds them to the adapter
     private fun fetchBooks(query : String) {
 
         // Show progress bar before making network request
